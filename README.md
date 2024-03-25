@@ -10,3 +10,4 @@ First, run:
 then, run:
 > npm run css
 
+then open index.html on your browser.
