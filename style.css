@@ -47,7 +47,11 @@ body {
   text-transform: capitalize;
 }
 
-#button {
+#input {
+    margin: 20px 0 5px 0;
+}
+
+.button {
   background-color: #ff7a22;
   border-radius: 5px;
   color: white;
@@ -57,12 +61,12 @@ body {
   transition: all 0.2s ease;
 }
 
-#button:hover {
+.button:hover {
   transform: translateY(-2px);
   background-color: #ff8839;
 }
 
-#button:active {
+.button:active {
   transform: translateY(2px);
   background-color: #ff7a22;
 }
