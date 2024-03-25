@@ -1,25 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" ltr>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="./logo_pokegame.png" />
+    <title>PokéGame</title>
   </head>
   <body>
-    <div id="wrapper">
-      <div id="image-wrapper">
-        <img id="image" src="" alt="" />
-      </div>
-      <div id="header">
-        <div id="number"></div>
-        <div id="name"></div>
-      </div>
-      <div class="button" id="button1">Random Pokemon!</div>
-      <input name="input" id="input" cols="30" rows="10"></input>
-      <div class="button" id="button2">Get this Pokemon!</div>
-    </div>
-    <script src="./app.js"></script>
+    <section class="bg-white p-8 rounded-lg shadow-md text-center">
+      <h1 class="text-3xl font-bold mb-4">Quel est ce Pokémon ?</h1>
+      <img id="image" src="" alt="Pokémon à trouver" class="mx-auto mb-4 h-48">
+      <p id="answer" class="text-lg font-semibold"></p>
+  </section>
+  
+  <section class="mt-8 text-center">
+      <input type="text" name="input" id="input" placeholder="Entrer un nom de Pokémon" class="rounded-md border border-gray-300 px-4 py-2 focus:outline-none focus:border-blue-400">
+      <button id="button_check" class="ml-4 h-10 px-6 font-semibold rounded-md bg-green-500 text-white hover:bg-green-600 focus:outline-none focus:bg-green-600">Vérifier</button>
+  </section>
+  
+  <section class="mt-4 text-center">
+      <p id="message" class="text-lg"></p>
+      <button id="button_next" class="mt-4 h-10 px-6 font-semibold rounded-md bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Suivant</button>
+  </section>
+    
+    <script src="./main.js"></script>
   </body>
 </html>

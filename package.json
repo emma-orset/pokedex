@@ -1,0 +1,29 @@
+{
+  "name": "pokegame",
+  "version": "1.0.0",
+  "description": "Who's That Pokémon? Game",
+  "main": "app.js",
+  "scripts": {
+    "css": "npx tailwindcss -i ./index.css -o ./style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emma-orset/pokegame.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "quiz",
+    "game"
+  ],
+  "author": "Emma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emma-orset/pokegame/issues"
+  },
+  "homepage": "https://github.com/emma-orset/pokegame#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
